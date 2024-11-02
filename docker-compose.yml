@@ -1,0 +1,20 @@
+---
+version: "3.8"
+services:
+  movie:
+    image: maheshmaha/movieloginpage
+    ports:
+     - "81:80"
+  train:
+    image: maheshmaha/trainloginpage
+    ports:
+      - "82:80"
+  zomoto:
+    image: maheshmaha/zomotologinpage
+    ports:
+      - "83:80"
+  uber:
+    image: maheshmaha/uberloginpage
+    ports:
+      - "84:80"
+
